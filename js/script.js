@@ -19,7 +19,7 @@ function searchCountries() {
 
 function showCountriesList(resp) {
   countriesList.innerHTML = "";
-  console.log(resp);
+
   resp.forEach(function({ name, capital, flag }) {
     let liEl = document.createElement("li");
     let spanEl = document.createElement("span");

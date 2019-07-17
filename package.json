@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/krzysiek0912/learning-git-2#readme",
   "devDependencies": {
+    "superagent": ">=3.7.0",
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.7",
     "globstar": "^1.0.0",
